@@ -1,0 +1,180 @@
+header {
+    padding: 5px;
+    background: url("bg.jpg");
+    width: 100%;
+	position: relative;
+	   
+
+}
+
+.caixa h1 { 
+	position:relative;
+	left: 200px;
+
+
+}
+
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+	color: gold;
+	text-decoration: overline;
+}
+
+nav {
+	position: absolute;
+	top: 50px;
+	right: 100px;
+}
+
+.produtos {
+	width: 940px;
+	margin: 0 auto;
+	padding: 35px;
+
+}
+
+.produtos li {
+	text-align: center;
+	display: inline-block;
+	width: 30%;
+	vertical-align: top;
+	padding: 40px 0;
+	border: 5px solid black;
+	border-radius: 20px;
+	border-top-width: 15px;
+	margin: 0 1.5%;
+	box-sizing: border-box;
+}
+
+.produtos li:hover {
+		border-color: #e7bd42;
+}
+
+.produtos li:hover h2 {
+		font-size: 34px;
+
+}
+
+.produtos li:active {
+		border-color: #d3a41b;
+}
+
+.produtos h2 {
+	font-size: 30px;
+	font-weight: bold;
+	padding: 10px 0;
+}
+	
+.preco {
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.descricao {
+	font-size: 18px;
+	padding: 10px 0;
+}
+
+footer {
+	text-align: center;
+	background: url("bg.jpg");
+	padding: 10px 0;
+}
+
+.copyright {
+	color: whitesmoke;
+	font-size: 13px;
+	margin-top: 0px;
+
+}
+
+main {
+	width: 940px;
+	margin: 0 auto;
+}
+
+form {
+	margin: 40px 0;
+}
+
+form label, form legend {
+	display: block;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+
+.mensagem {
+	height: 150px;
+	width: 50%;
+}
+
+textarea	{
+	margin-bottom: 20px;
+}
+
+.input-padrao {
+	display: block;
+	margin-bottom: 20px;
+	padding: 10px 25px;
+	width: 50%;
+}
+
+.checkbox {
+	margin-bottom: 20px ;
+}
+
+.enviar {
+	width: 40%;
+	padding: 15px 0;
+	background: #d3a41b;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border-radius: 5px;
+	border: none;
+	transition: 0.2s all;
+	cursor: pointer;
+	
+}
+
+
+.enviar:hover {
+	background: #9b7402;
+	transform: scale(105%);
+
+}
+
+.enviar:active{
+	
+	transform: scale(95%);
+}
+
+table {
+	margin:20px 0 40px;
+
+}
+
+thead {
+	background: grey;
+	color: white;
+	font-weight: bold;
+}
+
+td, th {
+	border: 1px solid black;
+	padding: 8px 15px;
+}
